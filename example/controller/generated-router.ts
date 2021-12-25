@@ -12,7 +12,7 @@ function qsStringify(queries: { [k: string]: string }) {
 
 // generated
 
-// Generated with router-code-generator@0.2.5
+// Generated with router-code-generator@0.3.0
 
 export let genRouter = {
   home: {
@@ -53,15 +53,14 @@ export let genRouter = {
   },
 };
 
-export type GenRouterTypeMain =
-  | GenRouterTypeTree["home"]
-  | GenRouterTypeTree["docBlock"]
-  | GenRouterTypeTree["docBlockSimple"]
-  | GenRouterTypeTree["docDemo"]
-  | GenRouterTypeTree["docSnippet"]
-  | GenRouterTypeTree["$"];
-
 export interface GenRouterTypeTree {
+  next:
+    | GenRouterTypeTree["home"]
+    | GenRouterTypeTree["docBlock"]
+    | GenRouterTypeTree["docBlockSimple"]
+    | GenRouterTypeTree["docDemo"]
+    | GenRouterTypeTree["docSnippet"]
+    | GenRouterTypeTree["$"];
   home: {
     name: "home";
     params: {};

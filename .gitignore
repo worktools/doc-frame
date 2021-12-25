@@ -10,5 +10,4 @@ webpack/dll/*
 *.swp
 *.log
 
-.cache-loader/*
 lib/*
