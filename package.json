@@ -1,6 +1,6 @@
 {
   "name": "@worktools/doc-frame",
-  "version": "0.1.14-a3",
+  "version": "0.1.14-a4",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -59,12 +59,11 @@
   "dependencies": {
     "@types/highlight.js": "^10.1.0",
     "highlight.js": "^11.3.1",
-    "react-clipboard": "^1.3.2",
     "react-copy-to-clipboard": "^5.0.4",
     "remarkable": "^2.0.1"
   },
   "peerDependencies": {
-    "@jimengio/flex-styles": "*",
-    "react": "^16.8.6"
+    "@worktools/flex-styles": "*",
+    "react": "*"
   }
 }

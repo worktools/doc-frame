@@ -2734,7 +2734,7 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-prop-types@^15.5.0, prop-types@^15.5.8:
+prop-types@^15.5.8:
   version "15.8.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.0.tgz#d237e624c45a9846e469f5f31117f970017ff588"
   integrity sha512-fDGekdaHh65eI3lMi5OnErU6a8Ighg2KjcjQxO7m8VHyWjcPyj5kiOgV1LQDOOOgVy3+5FgjXvdSSX7B8/5/4g==
@@ -2797,13 +2797,6 @@ raw-body@2.4.2:
     http-errors "1.8.1"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
-
-react-clipboard@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/react-clipboard/-/react-clipboard-1.3.2.tgz#7cbdfbe94dbf493c0e2506e3f348ee1cd14deb25"
-  integrity sha1-fL376U2/STwOJQbj80juHNFN6yU=
-  dependencies:
-    prop-types "^15.5.0"
 
 react-copy-to-clipboard@^5.0.4:
   version "5.0.4"
