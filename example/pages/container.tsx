@@ -5,7 +5,7 @@ import { css, cx } from "@emotion/css";
 
 import Home from "./home";
 import { HashRedirect } from "@worktools/ruled-router/lib/dom";
-import { genRouter, GenRouterTypeMain } from "controller/generated-router";
+import { genRouter } from "../controller/generated-router";
 import { row, fullscreen, expand } from "@worktools/flex-styles";
 import DocSidebar, { ISidebarEntry } from "../../src/doc-sidebar";
 import DemoDocBlock from "./demo-doc-block";

@@ -8,7 +8,6 @@ import { parseRoutePath, IRouteParseResult } from "@worktools/ruled-router";
 import { routerRules } from "./models/router-rules";
 
 import Container from "./pages/container";
-import { GenRouterTypeMain } from "controller/generated-router";
 
 const renderApp = () => {
   let routerTree = parseRoutePath(window.location.hash.slice(1), routerRules);
@@ -22,10 +21,8 @@ window.addEventListener("hashchange", () => {
   renderApp();
 });
 
-declare var module: any;
-
-if (module.hot) {
-  module.hot.accept(["./pages/container"], () => {
+if (import.meta.hot) {
+  import.meta.hot.accept(["./pages/container"], () => {
     renderApp();
   });
 }
