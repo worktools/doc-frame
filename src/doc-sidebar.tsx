@@ -1,6 +1,7 @@
 import React, { FC, useState, useEffect, useRef } from "react";
 import { css, cx } from "@emotion/css";
-import { expand, column, fullHeight, center, Space } from "@worktools/flex-styles";
+import { expand, column, fullHeight, center } from "@worktools/flex-styles";
+import Space from "@worktools/flex-styles/lib/space";
 import { KEY_CODES } from "./utils/key-code";
 
 export interface ISidebarEntry {
