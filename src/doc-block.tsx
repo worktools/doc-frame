@@ -1,4 +1,4 @@
-import React, { FC, CSSProperties } from "react";
+import React, { FC, CSSProperties, ReactNode } from "react";
 import { css, cx } from "@emotion/css";
 import hljs from "highlight.js/lib/core";
 import { Remarkable } from "remarkable";
@@ -45,6 +45,7 @@ let DocBlock: FC<{
   className?: string;
   style?: CSSProperties;
   embed?: boolean;
+  children?: ReactNode;
 }> = React.memo((props) => {
   let content = props.content || (props.children as string) || "TODO docs...";
 

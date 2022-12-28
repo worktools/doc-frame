@@ -1,4 +1,4 @@
-import React, { FC, CSSProperties } from "react";
+import React, { FC, CSSProperties, ReactNode } from "react";
 import { css, cx } from "@emotion/css";
 import { rowMiddle, rowParted } from "@worktools/flex-styles";
 
@@ -7,6 +7,7 @@ let DocDemo: FC<{
   link?: string;
   className?: string;
   style?: CSSProperties;
+  children?: ReactNode;
 }> = React.memo((props) => {
   if (props.children == null) {
     return <span>TODO, no children yet</span>;
